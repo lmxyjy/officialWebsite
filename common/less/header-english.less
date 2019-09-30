@@ -1,0 +1,226 @@
+
+// // 头部
+.head{
+  a{
+    padding: 0;
+  }
+    .navbar{
+      .row{
+        .col-md-9{
+          padding-right: 0;
+        }
+        @media (max-width:992px){
+          .col-lg-1{
+            padding-right: 0;
+          } 
+          .col-sm-2{
+            padding-right: 0;
+          }  
+          .col-md-2{
+            padding-right: 0;
+          } 
+  
+        }
+      }
+        .navbar-collapse{
+          @media screen and (min-width:1200px){
+          margin-top: 1.1%;
+          }
+          margin-top: 2.1%;
+          border: 0;
+        }
+        .collapse{
+          margin-left: 4.63%;
+          @media (min-width: 768px){
+            .navbar-nav {
+                float: none;
+                margin: 0;
+            }    
+            // .col-sm-2 {
+            //   width: 13.666667%;
+            // }      
+          }
+          @media (min-width: 992px){
+            .navbar-nav {
+                float: none;
+                margin: 0;
+            }  
+      
+          }
+          @media (min-width: 1200px){
+            .navbar-nav {
+                float: none;
+                margin: 0;
+            }          
+          }
+          .navbar-nav{
+          @media (min-width: 1200px){
+           .col-lg-offset-1 {
+           }
+           .col-lg-1 {
+            padding: 0;
+           }
+           .col-lg-offset-3 {
+            // margin-left: 8%;
+           }
+          }
+          .indexBox{
+            margin-left: 0;
+          }
+          .languageBox{
+            @media screen and (min-width:1200px) {
+              margin-left: 12.7%;
+            }
+          }
+          .discover{
+            @media screen and (min-width:1000px) {
+              margin-left: 5.7%;
+            }
+          }
+            li{
+              @media screen and (min-width:1000px) {
+                margin-left: 2.6%;
+              }
+
+              a:hover{
+                color: #B92222;
+              }
+
+              a{
+                // padding-left: 20%;
+              }
+            }
+            &>li{
+              &>.dropdown-menu{
+                border: 0;
+                border-radius: 10px;
+                margin-top: 0;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                padding: 0;
+                @media screen and (max-width:768px) {
+                  margin-top: 0;
+                  margin-left: -5%;
+                }
+                margin-top: 16%;
+                li{
+                  margin-left: 0;
+                  border-radius: 10px;
+                  a{
+                    padding: 10px 40px;
+                    font-size: 20px;
+                    font-family: "Microsoft YaHei" ! important;
+                    color: #F08440;
+                  }
+                }
+                li:hover{
+                  color: #B92222;
+                }
+              }
+            }
+        }
+      }
+    }
+  }
+  .navBox{
+    background: linear-gradient(to right, #F3A062 0%,#FACA39 100%);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-family: "Microsoft YaHei" ! important;
+    font-weight: bold;
+    @media screen and (min-width:1200px){
+      width:100%;
+      height:63px;
+      font-size: 20px;
+    }
+    @media screen and (max-width:768px){
+      font-size: 20px;
+    }
+    font-size: 15px;
+    display: flex;
+  }
+  .newNav{
+    @media screen and (min-width:1200px){
+      width:100%;
+      height:63px;
+      font-size: 20px;
+    }
+    @media screen and (max-width:768px){
+      font-size: 20px;
+    }
+    font-size: 15px;
+    border: 0;
+    background-color: #ffffff;
+    font-family: "Microsoft YaHei" ! important;
+    font-weight: bold;
+    box-shadow: 0 0 6px 4px #DED7CD;
+    display: flex;
+  }
+  .colorWhite{
+    color: #ffffff;
+  }
+  .colorBlack{
+    color: #141414;
+  }
+  .colorYellow{
+    color:#F18A1C;
+  }
+  .indexText{
+    color: #B92222;
+  }
+  // 显示隐藏
+.disNone{
+  display: none;
+}
+  .disIner{
+    display: initial;
+  }
+  // 头部切换语言hover
+  #chinese {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #english {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  @media (min-width:1200px){
+    .logoImgBox{
+      width: 8.33333333%;
+    }
+  }
+  .logoImgBox{
+    margin-top: 0.5%;
+    padding: 0;
+    @media screen and (min-width:1000px){
+      margin-left: 16.979166666%;
+    }
+  }  
+  #indexNavBox{
+    .navbar-nav{
+      &>.open{
+        a:focus {
+          color: #B73938;
+        }
+      }
+    }
+  }
+  // ===============下载导航的背景色================
+  #downloadNavBox{
+    background: white;
+    box-shadow: 0 0 6px 4px #DED7CD;
+    .navbar-nav{
+      &>.open{
+        a:focus {
+          color: #F18A1C
+        }
+      }
+    }
+  }
+#downloadHover{
+  li{
+    a:hover{
+      color: #F18A1C;
+    }
+  }
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Keywords" content="mind,Mind+,Mind+编程,scratch3.0下载,图形化编程,掌控板,python,micro:bit,arduino,mindplus" />
+  <meta name="Description"
+    content="Mind+是一款基于Scratch3.0开发的青少年编程软件，支持arduino、micro:bit、掌控板等各种开源硬件,支持超多扩展硬件,还可使用python/c/c++等高级编程语言，让大家轻松体验创造的乐趣。" />
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://download3.dfrobot.com.cn/website/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <script src="common/js/nav.js"></script>
+  <script src="common/js/top.js"></script>
+  <script src="common/js/hover.js"></script>
+  <script src="common/js/location.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+  <link rel="shortcut icon" href="http://download3.dfrobot.com.cn/website/image/title.ico" />
+  <link rel="stylesheet" href="http://download3.dfrobot.com.cn/website/bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="index/css/index.css">
+  <link rel="stylesheet" href="common/css/d-video.css">
+  <title>首页 - Mind+官网 - 一款简单,不简单的编程工具</title>
+</head>
+
+<body>
+  <header class="head" id="nav">
+    <nav class="navbar navbar-default navbar-fixed-top top navBox" id="indexNavBox">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+      <!-- logo -->
+      <div class="logoImgBox col-md-2 col-sm-2 col-xs-2">
+        <a class="colorWhite navText " href="javascript:void(0)"><img class="imgBox"
+            src="http://download3.dfrobot.com.cn/website/image/logo.png"></a>
+      </div>
+      <!-- 导航-->
+      <div class=" col-md-9 col-sm-11 col-xs-11">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+          <ul class="nav navbar-nav">
+            <li class="col-md-1 col-sm-2 indexBox"><a class="colorWhite navText " href="javascript:void(0)">首页</a></li>
+            <li class="col-md-1 col-sm-2"><a class="colorWhite navText" href="download.html
+              ">下载</a></li>
+            <li class="col-md-1 col-sm-2"><a class="colorWhite navText" href="http://mindplus.dfrobot.com.cn"
+                target="_Blank">教程</a>
+            </li>
+            <li class="col-md-1 col-sm-2"><a class="colorWhite navText"
+                href="http://mc.dfrobot.com.cn/forum.php?mod=forumdisplay&fid=165" target="_Blank">论坛</a></li>
+            <li class="col-md-1 col-sm-2"><a class="colorWhite navText" href="javascript:void(0)"></a></li>
+            <li class="languageBox" role="presentation" class="dropdown">
+              <a class="dropdown-toggle colorWhite navText" data-toggle="dropdown" data-hover="dropdown"
+                href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false" id="translate">
+                <img class="imgOne" src="http://download3.dfrobot.com.cn/website/image/small_logo.png">
+                <img class="imgTwo disNone" src="http://download3.dfrobot.com.cn/website/image/blackball.png">
+                中文 <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="langBtn" id="chinese" href="javascript:void(0)">中文</a></li>
+                <li><a class="langBtn" id="english" href="en.html">English</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+  <!-- 文字说明 -->
+  <div class="textDescription">
+    <!-- 内容盒子 -->
+    <div class="textDescriptionContentBox">
+      <!-- 左边的部分 -->
+      <ul>
+        <li class="chinaTextBox"><img class="img-responsive"
+            src="http://download3.dfrobot.com.cn/website/image/all.png"></li>
+        <li class="langText">
+          Mind+是一款基于Scratch3.0开发的青少年编程软件，支持arduino、micro:bit、掌控板等各种开源硬件，只需要拖动图形化程序块即可完成编程，还可以使用python/c/c++等高级编程语言，让大家轻松体验创造的乐趣。
+        </li>
+        <li class="langText marLeft" id="newDownloadBox">
+          <a href="download.html">
+            <img class="none" src="http://download3.dfrobot.com.cn/website/image/downloadbtn.png">
+            <span>立即下载</span>
+          </a>
+        </li>
+      </ul>
+      <!-- 右边的部分 -->
+      <div><img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/robot.png"></div>
+    </div>
+    <!-- video -->
+    <div class="videoBox" id="videoBox">
+      <div class="videoBoxo">
+        <div id="video"></div>
+        <video class="disNone" id="videoIe" controls
+          poster="http://download3.dfrobot.com.cn/website/image/videoimg.png">
+          <source src="http://download3.dfrobot.com.cn/website/video/mind+.mp4" type="video/mp4">
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+          您的浏览器不支持 video 标签。
+        </video>
+      </div>
+      <!-- video的播放按钮 -->
+      <div class="videoImg" id="videoImg">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/play.png">
+      </div>
+      <!-- ie video的播放按钮 -->
+      <div class="videoImg disNone" id="videoImg2">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/play.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- 板子01 -->
+  <div class="board" id="board">
+    <!-- img -->
+    <div class="boardYelloBox">
+      <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/gif.gif">
+    </div>
+    <!-- text -->
+    <ul class="boardTextBox">
+      <li>01</li>
+      <li>基于Scratch3.0，入门门槛低。</li>
+      <li>
+        全球知名度最高的图形化编程平台之一，拖动图形积木即可进行编程，让你轻松跨入编程世界的大门。
+      </li>
+    </ul>
+  </div>
+  <!-- 板子02 -->
+  <div class="boardTwoBox">
+    <div class="boardTwo">
+      <!-- text -->
+      <ul class="boardTextBox">
+        <li>02</li>
+        <li>支持三大主流开源硬件平台，可脱机运行。</li>
+        <li>
+          当前教育中的开源硬件主流是基于Arduino、micro:bit、esp32的相关产品，Mind+完美的将三个硬件平台与Scratch软件平台进行了融合，使其拥有一致的使用体验，并且可以脱离电脑运行，让你摆脱电脑的束缚，改造真实世界。
+        </li>
+      </ul>
+      <!-- img -->
+      <div>
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/board.png">
+      </div>
+    </div>
+  </div>
+  <!-- 板子03 -->
+  <div class=" boardThree">
+    <!-- img -->
+    <div>
+      <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/computer.png">
+    </div>
+    <!-- text -->
+    <ul class="boardTextBox">
+      <li>03</li>
+      <li>支持海量电子模块，一键添加。</li>
+      <li>拥有强大的硬件扩展功能库，直接使用即可以对几十种硬件模块，包括各种传感器、执行器、通讯模块、显示器、功能模块进行编程控制，并且数量还在不断增加中，给你丰富的弹药库进行创造。</li>
+    </ul>
+  </div>
+  <!-- 板子04 -->
+  <div class="boardFourBox">
+    <div class="boardTwo">
+      <!-- text -->
+      <ul class="boardTextBox">
+        <li>04</li>
+        <li>自动转换Python代码，可手动编辑。</li>
+        <li>使用图形化积木编程时可以自动转换为Python或C代码，对照学习很轻松，同时也可以手动编辑代码，让你轻松进阶编程达人。</li>
+      </ul>
+      <!-- img -->
+      <div>
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/gif2.gif">
+      </div>
+    </div>
+  </div>
+  <!-- 尾部 -->
+  <footer class="foot">
+    <div class="footContentBox">
+      <ul>
+        <li style="font-size: 20px;">需求帮助</li>
+        <li class="line1"></li>
+        <li><a href="http://mindplus.dfrobot.com.cn/FAQ" target="_Blank">常见问题</a></li>
+        <li><a href="http://mindplus.dfrobot.com.cn" target="_Blank">官方文档</a></li>
+        <li><a href="http://mc.dfrobot.com.cn/forum.php?mod=forumdisplay&fid=165" target="_Blank">DF创客社区</a></li>
+        <li>QQ群：671877416（Mind+官方交流群）</li>
+      </ul>
+      <ul class="contantUs">
+        <li style="font-size: 20px;">联系我们</li>
+        <li class="line2"></li>
+        <li>邮 箱：MindPlus@dfrobot.com</li>
+        <li><a href="http://www.dfrobot.com.cn" target="_Blank">官方论坛：www.dfrobot.com.cn</a></li>
+        <li><a href="https://weibo.com/mindplus?is_all=1" target="_Blank">官方微博：MindPlus官微</a></li>
+        <li>公众号：蘑菇云创造</li>
+      </ul>
+      <ul class="bottomImgBox">
+        <li>
+          <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/qq.png">
+          <span> 扫码加入QQ群</span>
+        </li>
+        <li>
+          <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/weixin.png">
+          <span>扫码关注公众号</span>
+        </li>
+      </ul>
+    </div>
+    <!-- 版本号 -->
+    <p style="color:white">Powered By DFRobot © 2008-2019</p>
+  </footer>
+  <!-- 返回按钮 -->
+  <ul class="topButton">
+    <!-- <li id="suggestionBtn"><img src='http://download3.dfrobot.com.cn/website/image/suggest.png'></li> -->
+    <li id="toTop"><img src='http://download3.dfrobot.com.cn/website/image/top.png'></li>
+  </ul>
+  <!-- 意见反馈 -->
+  <div class="opinionBigBox">
+    <div class="opinionBox">
+      <div class="xBox"><img id="x" class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/x.png">
+      </div>
+      <form>
+        <label class="poinionText"><img
+            src="http://download3.dfrobot.com.cn/website/image/suggestionicon.png">&nbsp;&nbsp;反馈意见</label>
+        <div class="form-group">
+          <input type="email" class="form-control email" id="exampleInputEmail1" placeholder="E-mail">
+          <input type="email" class="form-control disNone emailIe" id="exampleInputEmailIe" placeholder="E-mail">
+        </div>
+        <textarea style="resize:none" class="form-control textarea" rows="3" placeholder="写下你的意见"></textarea>
+
+        <div class="enclosureBigBox">
+          <!-- 1 -->
+          <button class="upSubmit btnA btn-success" type="button">
+            <span class="enclosureBoxImg"><img
+                src="http://download3.dfrobot.com.cn/website/image/enclosure.png">附件：</span>
+            <span class="window"></span>
+          </button>
+          <!-- 2 -->
+          <span class="enclosureBox btn btn-success fileinput-button">
+            <a href="javascript:void(0);" class="upload">
+              上传附件
+              <input class="replyFileid" type="file" multiple="multiple" onchange="getfilename(this);" />
+            </a>
+          </span>
+        </div>
+        <button id="send" class="submit btn btn-default" type="button">提交</button>
+      </form>
+    </div>
+  </div>
+  <!-- <script src="js/index.js"></script> -->
+  <script src="common/js/suggestion.js"></script>
+  <!-- <script src="../common/js/video.js"></script> -->
+  <script src="common/js/main-2d284b9fac796bb65b25.js"></script>
+  <script src="common/js/videobar.js"></script>
+  <script src="common/js/edge.js"></script>
+  <script src="common/js/ie11-placeholder.js"></script>
+  <script src="common/js/other-hover.js"></script>
+  <script src="common/js/ios.js"></script>
+  <script src="common/js/downloadA.js"></script>
+</body>
+
+</html>

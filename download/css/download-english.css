@@ -1,0 +1,970 @@
+.head a {
+  padding: 0;
+}
+.head .navbar .row .col-md-9 {
+  padding-right: 0;
+}
+@media (max-width: 992px) {
+  .head .navbar .row .col-lg-1 {
+    padding-right: 0;
+  }
+  .head .navbar .row .col-sm-2 {
+    padding-right: 0;
+  }
+  .head .navbar .row .col-md-2 {
+    padding-right: 0;
+  }
+}
+.head .navbar .navbar-collapse {
+  margin-top: 2.1%;
+  border: 0;
+}
+@media screen and (min-width: 1200px) {
+  .head .navbar .navbar-collapse {
+    margin-top: 1.1%;
+  }
+}
+.head .navbar .collapse {
+  margin-left: 4.63%;
+}
+@media (min-width: 768px) {
+  .head .navbar .collapse .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+}
+@media (min-width: 992px) {
+  .head .navbar .collapse .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .head .navbar .collapse .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .head .navbar .collapse .navbar-nav .col-lg-1 {
+    padding: 0;
+  }
+}
+.head .navbar .collapse .navbar-nav .indexBox {
+  margin-left: 0;
+}
+@media screen and (min-width: 1200px) {
+  .head .navbar .collapse .navbar-nav .languageBox {
+    margin-left: 12.7%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .head .navbar .collapse .navbar-nav .discover {
+    margin-left: 5.7%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .head .navbar .collapse .navbar-nav li {
+    margin-left: 2.6%;
+  }
+}
+.head .navbar .collapse .navbar-nav li a:hover {
+  color: #B92222;
+}
+.head .navbar .collapse .navbar-nav > li > .dropdown-menu {
+  border: 0;
+  border-radius: 10px;
+  margin-top: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0;
+  margin-top: 16%;
+}
+@media screen and (max-width: 768px) {
+  .head .navbar .collapse .navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    margin-left: -5%;
+  }
+}
+.head .navbar .collapse .navbar-nav > li > .dropdown-menu li {
+  margin-left: 0;
+  border-radius: 10px;
+}
+.head .navbar .collapse .navbar-nav > li > .dropdown-menu li a {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-family: "Microsoft YaHei" ! important;
+  color: #F08440;
+}
+.head .navbar .collapse .navbar-nav > li > .dropdown-menu li:hover {
+  color: #B92222;
+}
+.navBox {
+  background: linear-gradient(to right, #f3a062 0%, #faca39 100%);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  border: 0;
+  font-family: "Microsoft YaHei" ! important;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+}
+@media screen and (min-width: 1200px) {
+  .navBox {
+    width: 100%;
+    height: 63px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navBox {
+    font-size: 20px;
+  }
+}
+.newNav {
+  font-size: 15px;
+  border: 0;
+  background-color: #ffffff;
+  font-family: "Microsoft YaHei" ! important;
+  font-weight: bold;
+  box-shadow: 0 0 6px 4px #DED7CD;
+  display: flex;
+}
+@media screen and (min-width: 1200px) {
+  .newNav {
+    width: 100%;
+    height: 63px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .newNav {
+    font-size: 20px;
+  }
+}
+.colorWhite {
+  color: #ffffff;
+}
+.colorBlack {
+  color: #141414;
+}
+.colorYellow {
+  color: #F18A1C;
+}
+.indexText {
+  color: #B92222;
+}
+.disNone {
+  display: none;
+}
+.disIner {
+  display: initial;
+}
+#chinese {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#english {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media (min-width: 1200px) {
+  .logoImgBox {
+    width: 8.33333333%;
+  }
+}
+.logoImgBox {
+  margin-top: 0.5%;
+  padding: 0;
+}
+@media screen and (min-width: 1000px) {
+  .logoImgBox {
+    margin-left: 16.979166666%;
+  }
+}
+#indexNavBox .navbar-nav > .open a:focus {
+  color: #B73938;
+}
+#downloadNavBox {
+  background: white;
+  box-shadow: 0 0 6px 4px #DED7CD;
+}
+#downloadNavBox .navbar-nav > .open a:focus {
+  color: #f18a1c;
+}
+#downloadHover li a:hover {
+  color: #F18A1C;
+}
+.footEn {
+  font-size: 16px;
+  font-family: "Microsoft YaHei" ! important;
+  background-color: #F0A53F;
+  color: #fff;
+  width: 100%;
+}
+.footEn .allBox {
+  padding-top: 2%;
+  width: 70.3%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1600px) {
+  .footEn .allBox {
+    margin: 0 0 0 0;
+    margin-left: 23.9%;
+    width: 59.27%;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .footEn .allBox {
+    margin: 0 0 0 0;
+    margin: 0 auto;
+    width: 80.27%;
+    display: flex;
+  }
+}
+.footEn .allBox .footEnContentBox {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnContentBox {
+    width: 64.32%;
+    display: flex;
+  }
+}
+.footEn .allBox .footEnContentBox ul {
+  width: 39.61%;
+}
+.footEn .allBox .footEnContentBox ul .line {
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin: 10px 0 10px 0;
+}
+.footEn .allBox .footEnContentBox ul:first-child a {
+  color: #fff;
+  font-family: "Microsoft YaHei" ! important;
+  text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnContentBox ul:nth-child(2) {
+    margin-left: 11%;
+  }
+}
+.footEn .allBox .footEnContentBox ul:nth-child(2) a {
+  color: #fff;
+  font-family: "Microsoft YaHei" ! important;
+}
+.footEn .allBox .footEnImgBox {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnImgBox {
+    width: 31.3%;
+    margin-left: 1%;
+  }
+}
+.footEn .allBox .footEnImgBox ul .line {
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin: 10px 0 10px 0;
+}
+.footEn .allBox .footEnImgBox ul ul {
+  margin-top: 4%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnImgBox ul ul li img {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+}
+.footEn .allBox .footEnImgBox ul ul li a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnImgBox ul ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footEn p:last-child {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn p:last-child {
+    text-align: left;
+    margin-left: 41.8%;
+    margin-top: 1.55%;
+  }
+}
+.textCss {
+  font-weight: 400;
+  font-size: 20px;
+}
+body .topButton {
+  position: fixed;
+  right: 0.6%;
+  top: 55%;
+}
+body .topButton li {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+body .topButton li img {
+  padding: 21% 0 0 10px;
+}
+body .topButton li:first-child {
+  background-color: #F0A53F;
+}
+body .topButton li:last-child {
+  background-color: #F5C583;
+}
+.opinionBigBox {
+  display: none;
+  border-radius: 20px;
+  z-index: 101;
+  background-color: #ffffff;
+  width: 42.04%;
+  position: fixed;
+  top: 29.8%;
+  right: 3.2%;
+}
+.opinionBigBox .opinionBox {
+  width: 100%;
+  box-shadow: #888 0 0 18px;
+  border-radius: 20px;
+  position: fixed;
+  position: relative;
+}
+.opinionBigBox .opinionBox .xBox {
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  cursor: pointer;
+}
+.opinionBigBox .opinionBox .xBox img {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox .xBox img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox .xBox {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+}
+.opinionBigBox .opinionBox form {
+  font-family: "Microsoft YaHei" ! important;
+  width: 81.25%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.opinionBigBox .opinionBox form .poinionText {
+  font-weight: 500;
+  padding-bottom: 3%;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .poinionText {
+    font-size: 30px;
+  }
+}
+.opinionBigBox .opinionBox form .form-control {
+  color: #848484;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+  padding: 0% 0 0% 0%;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .form-control {
+    font-size: 20px;
+  }
+}
+.opinionBigBox .opinionBox form .email {
+  padding: 3.7% 0 3.7% 3%;
+  font-weight: 500;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .emailIe {
+    height: 50px;
+    padding-left: 3%;
+  }
+}
+.opinionBigBox .opinionBox form .form-group {
+  margin-bottom: 20px;
+}
+.opinionBigBox .opinionBox form .enclosureBigBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .enclosureBigBox {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.opinionBigBox .opinionBox form .enclosureBigBox .btnA {
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: auto;
+}
+.opinionBigBox .opinionBox form .btn-success {
+  color: #fff;
+  background-color: #FDEDD3;
+  border-color: #FDEDD3;
+  display: flex;
+  border-radius: 8px;
+  outline: inline;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .btn-success {
+    font-size: 20px;
+  }
+}
+.opinionBigBox .opinionBox form .btn-success .enclosureBoxImg {
+  display: block;
+  padding-left: 3%;
+}
+.opinionBigBox .opinionBox form .btn-success .window {
+  display: block;
+  width: 90%;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .btn-success .window {
+    font-size: 14px;
+    padding-top: 1.25%;
+    padding-left: 1%;
+  }
+}
+.opinionBigBox .opinionBox form .upSubmit {
+  width: 100%;
+  border-radius: 8px;
+  color: #000000;
+  padding: 6px 12px;
+  outline: none;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .upSubmit {
+    width: 77.4%;
+  }
+}
+.opinionBigBox .opinionBox form .enclosureBox {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .enclosureBox {
+    width: 21.24%;
+  }
+}
+.opinionBigBox .opinionBox form .enclosureBox span {
+  color: #000000;
+  display: inline-block;
+}
+.opinionBigBox .opinionBox form .enclosureBox input {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+}
+.opinionBigBox .opinionBox form .enclosureBox a {
+  text-decoration: none;
+}
+.opinionBigBox .opinionBox form .textarea {
+  padding: 1.5% 0 16.04% 3%;
+  font-weight: 500;
+}
+.opinionBigBox .opinionBox form .submit {
+  width: 100%;
+  font-family: "Microsoft YaHei" ! important;
+  border-radius: 5px;
+  background-color: #FF9F1C;
+  border: 1px solid #FFE200;
+  color: #ffffff;
+  margin-bottom: 10%;
+  padding: 1.85% 0 1.85% 0;
+}
+@media screen and (min-width: 1200px) {
+  .opinionBigBox .opinionBox form .submit {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #marLeft {
+    margin-left: -48%;
+  }
+}
+#marLeft {
+  margin-left: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #FEF6EB;
+  font-family: "Microsoft YaHei" ! important;
+}
+body .downContentBox {
+  width: 90.55%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 6px 1px #DED7CD;
+  margin-top: 20.5%;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox {
+    font-size: 16px;
+    margin-top: 5.5%;
+    width: 52.55%;
+  }
+}
+body .downContentBox .logoImgBox {
+  width: 80.6%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+body .downContentBox .logoImgBox img {
+  margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .logoImgBox {
+    width: 32.6%;
+  }
+}
+body .downContentBox .logoImgBox P {
+  padding-top: 5%;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .logoImgBox P {
+    font-size: 30px;
+  }
+}
+body .downContentBox .sysBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90.65%;
+  margin: 0 auto;
+  margin-top: 2.5%;
+  border-top: 1px dashed #BCBCBC;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .sysBox {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+body .downContentBox .sysBox .imgBox {
+  height: 80%;
+  width: 30%;
+  padding-top: 4%;
+  margin-left: 1%;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .sysBox .imgBox {
+    width: 8.278%;
+  }
+}
+body .downContentBox .sysBox .textBox {
+  width: 65.62%;
+  padding-top: 3%;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .sysBox .textBox {
+    width: 39.62%;
+    margin-left: -13%;
+  }
+}
+body .downContentBox .sysBox .textBox li {
+  color: #919191;
+  font-weight: 300;
+}
+body .downContentBox .sysBox .textBox .title {
+  color: #000000;
+  font-weight: 500;
+  padding-bottom: 1%;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .sysBox .textBox .title {
+    font-size: 24px;
+  }
+}
+body .downContentBox .sysBox .btnBox {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 3%;
+  height: 100%;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .sysBox .btnBox {
+    width: 25.16%;
+    margin: 0 0 0 0;
+    margin-left: 3%;
+  }
+}
+body .downContentBox .sysBox .btnBox .btn:hover {
+  border: 2px solid #FF7C2F;
+  color: #FF7C2F;
+  background-color: #ffffff;
+}
+body .downContentBox .sysBox .btnBox .btn {
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #FF7624;
+  height: 51.3%;
+  width: 92.1%;
+  background-color: #FF7624;
+  font-family: "Microsoft YaHei" ! important;
+  border-radius: 0;
+  margin-bottom: 1%;
+}
+@media screen and (min-width: 1300px) {
+  body .downContentBox .sysBox .btnBox .btn {
+    font-size: 16px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .downContentBox .sysBox .btnBox .btn {
+    font-weight: 500;
+    color: #fff;
+    border: 2px solid #FF7624;
+    height: 63.8%;
+    width: 92.1%;
+    background-color: #FF7624;
+    font-family: "Microsoft YaHei" ! important;
+    border-radius: 0;
+    margin-bottom: 1%;
+  }
+}
+@media screen and (-ms-high-contrast: active) and screen and (min-width: 1200px), (-ms-high-contrast: none) and screen and (min-width: 1200px) {
+  body .downContentBox .sysBox .btnBox .btn {
+    font-size: 16px;
+  }
+}
+body .downContentBox .sysBox .btnBox .updateBox {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 300;
+}
+@media screen and (min-width: 1200px) {
+  body .downContentBox .sysBox .btnBox .updateBox {
+    font-size: 14px;
+  }
+}
+body .downContentBox .sysBox .btnBox .updateBox a {
+  color: #161F64;
+  text-decoration: none;
+}
+body .downContentBox .sysBox .btnBox .updateBox a:first-child {
+  margin-right: 4.8%;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .downContentBox .sysBox .btnBox .updateBox a:first-child {
+    margin-right: 0;
+  }
+}
+body .downContentBox #sysBox2 {
+  margin-top: 1%;
+}
+body .downContentBox #sysBox2 .imgBox {
+  margin-left: 2.5%;
+}
+body .downContentBox #sysBox2 .textBox {
+  margin-left: -14.5%;
+}
+body .downContentBox #sysBox2 .btnBox .btn {
+  color: #fff;
+  border: 2px solid #C6C6C6;
+  height: 51.3%;
+  margin-left: 1%;
+  width: 92.1%;
+  background-color: #C6C6C6;
+  font-weight: 500;
+  font-family: "Microsoft YaHei" ! important;
+  border-radius: 0;
+  margin-bottom: 19%;
+}
+@media screen and (max-width: 1370px) {
+  body .downContentBox #sysBox2 .btnBox .btn {
+    font-size: 14px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .downContentBox #sysBox2 .btnBox .btn {
+    color: #fff;
+    border: 2px solid #C6C6C6;
+    height: 66.5%;
+    margin-left: 1%;
+    width: 92.1%;
+    background-color: #C6C6C6;
+    font-weight: 500;
+    font-family: "Microsoft YaHei" ! important;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (-ms-high-contrast: active) and screen and (max-width: 1370px), (-ms-high-contrast: none) and screen and (max-width: 1370px) {
+  body .downContentBox #sysBox2 .btnBox .btn {
+    font-size: 14px;
+  }
+}
+body .downContentBox #sysBox3 {
+  margin-top: 1%;
+}
+body .downContentBox #sysBox3 .imgBox {
+  margin-left: 2.5%;
+  margin-bottom: 6.98%;
+}
+body .downContentBox #sysBox3 .textBox {
+  margin-left: -14.5%;
+}
+body .downContentBox #sysBox3 .btnBox .btn {
+  color: #fff;
+  border: 2px solid #C6C6C6;
+  height: 51.3%;
+  margin-left: 1%;
+  width: 92.1%;
+  font-weight: 500;
+  background-color: #C6C6C6;
+  font-family: "Microsoft YaHei" ! important;
+  border-radius: 0;
+  margin-bottom: 19%;
+}
+@media screen and (max-width: 1370px) {
+  body .downContentBox #sysBox3 .btnBox .btn {
+    font-size: 14px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .downContentBox #sysBox3 .btnBox .btn {
+    color: #fff;
+    border: 2px solid #C6C6C6;
+    height: 66.5%;
+    margin-left: 1%;
+    width: 92.1%;
+    font-weight: 500;
+    background-color: #C6C6C6;
+    font-family: "Microsoft YaHei" ! important;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (-ms-high-contrast: active) and screen and (max-width: 1370px), (-ms-high-contrast: none) and screen and (max-width: 1370px) {
+  body .downContentBox #sysBox3 .btnBox .btn {
+    font-size: 14px;
+  }
+}
+.titleBox {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1.8%;
+}
+@media screen and (min-width: 1200px) {
+  .titleBox {
+    width: 18.02%;
+  }
+}
+.downloadBox {
+  font-family: "Microsoft YaHei" ! important;
+  width: 52.55%;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #919191;
+  text-align: center;
+  margin-top: 1.7%;
+  margin-bottom: 2.88%;
+}
+@media screen and (min-width: 1200px) {
+  .downloadBox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+}
+.downloadBox .boxHover:hover {
+  border: 3px solid #F0A53F;
+}
+.downloadBox ul {
+  border-radius: 5px;
+  border: 3px solid #ffffff;
+  width: 100%;
+  box-shadow: 0 0 6px 1px #DED7CD;
+  background-color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .downloadBox ul {
+    width: 31%;
+  }
+}
+.downloadBox ul li img {
+  margin: 0 auto;
+}
+.downloadBox ul li img:first-child {
+  margin-top: 13%;
+}
+.downloadBox ul li img:last-child {
+  margin-top: 3%;
+}
+.downloadBox ul .version {
+  margin-top: 6%;
+}
+.downloadBox ul .btn {
+  border: 2px solid #ffff;
+  width: 95.95%;
+  color: white;
+  font-weight: 500;
+  background-color: #F8C146;
+  border-radius: 0;
+  margin-top: 12.4%;
+}
+@media screen and (min-width: 1200px) {
+  .downloadBox ul .btn {
+    font-size: 16px;
+    width: 70.95%;
+  }
+}
+.downloadBox ul .btn:hover {
+  background-color: #fff;
+  border: 2px solid #F8C44F;
+  color: #F8C44F;
+}
+.downloadBox ul .downloadA {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-bottom: 22.3%;
+}
+@media screen and (min-width: 1200px) {
+  .downloadBox ul .downloadA {
+    margin-left: 9.6%;
+  }
+}
+.downloadBox ul .downloadA a {
+  text-decoration: none;
+  margin-left: 6%;
+  color: #161F64;
+}
+@media screen and (min-width: 1200px) {
+  .downloadBox ul .downloadA a {
+    font-size: 14px;
+  }
+}
+.downloadBox ul .downloadA a:last-child {
+  margin-left: 4.8%;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .downloadBox ul .downloadA {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 15.6%;
+    margin-bottom: 22.3%;
+  }
+  .downloadBox ul .downloadA a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0%;
+    color: #161F64;
+  }
+}
+@media screen and (-ms-high-contrast: active) and screen and (min-width: 1200px), (-ms-high-contrast: none) and screen and (min-width: 1200px) {
+  .downloadBox ul .downloadA a {
+    font-size: 14px;
+  }
+}
+#macImg li img:first-child {
+  margin-top: 13%;
+}
+#macImg .btn {
+  border: 2px solid white;
+  width: 95.95%;
+  color: white;
+  background-color: #C6C6C5;
+  border-radius: 0;
+  font-weight: 500;
+  margin-top: 24.3%;
+}
+@media screen and (min-width: 1200px) {
+  #macImg .btn {
+    width: 70.95%;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #macImg .btn {
+    width: 70.95%;
+    font-size: 14px;
+    margin-top: 30%;
+  }
+}
+#linuxImg li img:first-child {
+  margin-top: 13%;
+}
+#linuxImg .btn {
+  border: 2px solid white;
+  color: white;
+  background-color: #C6C6C5;
+  border-radius: 0;
+  font-weight: 500;
+  width: 95.95%;
+  margin-top: 24.3%;
+}
+@media screen and (min-width: 1200px) {
+  #linuxImg .btn {
+    font-size: 16px;
+    width: 70.95%;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #linuxImg .btn {
+    width: 70.95%;
+    font-size: 14px;
+    margin-top: 30%;
+  }
+}
+#downloadBoxOne {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 1200px) {
+  .marB {
+    padding-bottom: 32.5px;
+  }
+}
+.btnHover {
+  border: 2px solid white;
+}

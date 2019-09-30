@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.396" height="164.396" viewBox="0 0 164.396 164.396">
+  <defs>
+    <filter id="路径_408" x="0" y="0" width="164.396" height="164.396" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.396"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_409" x="57.018" y="39.304" width="68.532" height="81.627" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.416"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_107" data-name="组 107" transform="translate(-263.88 31.48)">
+    <g transform="matrix(1, 0, 0, 1, 263.88, -31.48)" filter="url(#路径_408)">
+      <path id="路径_408-2" data-name="路径 408" d="M346.078-25.48a73.2,73.2,0,1,0,73.2,73.2,73.2,73.2,0,0,0-73.2-73.2Zm0,138.691a65.493,65.493,0,1,1,65.493-65.493,65.493,65.493,0,0,1-65.493,65.493Zm0,0" transform="translate(-263.88 31.48)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 263.88, -31.48)" filter="url(#路径_409)">
+      <path id="路径_409-2" data-name="路径 409" d="M599.1,195.22a4.623,4.623,0,0,0-7.166,3.853v54.4a4.623,4.623,0,0,0,7.166,3.853l41.3-27.2a4.623,4.623,0,0,0,0-7.7Zm0,0" transform="translate(-525.92 -149.15)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+.footEn {
+  font-size: 16px;
+  font-family: "Microsoft YaHei" ! important;
+  background-color: #F0A53F;
+  color: #fff;
+  width: 100%;
+}
+.footEn .allBox {
+  padding-top: 2%;
+  width: 70.3%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1600px) {
+  .footEn .allBox {
+    margin: 0 0 0 0;
+    margin-left: 23.9%;
+    width: 59.27%;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .footEn .allBox {
+    margin: 0 0 0 0;
+    margin: 0 auto;
+    width: 80.27%;
+    display: flex;
+  }
+}
+.footEn .allBox .footEnContentBox {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnContentBox {
+    width: 64.32%;
+    display: flex;
+  }
+}
+.footEn .allBox .footEnContentBox ul {
+  width: 39.61%;
+}
+.footEn .allBox .footEnContentBox ul .line {
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin: 10px 0 10px 0;
+}
+.footEn .allBox .footEnContentBox ul:first-child a {
+  color: #fff;
+  font-family: "Microsoft YaHei" ! important;
+  text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnContentBox ul:nth-child(2) {
+    margin-left: 11%;
+  }
+}
+.footEn .allBox .footEnContentBox ul:nth-child(2) a {
+  color: #fff;
+  font-family: "Microsoft YaHei" ! important;
+}
+.footEn .allBox .footEnImgBox {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnImgBox {
+    width: 31.3%;
+    margin-left: 1%;
+  }
+}
+.footEn .allBox .footEnImgBox ul .line {
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin: 10px 0 10px 0;
+}
+.footEn .allBox .footEnImgBox ul ul {
+  margin-top: 4%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnImgBox ul ul li img {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+}
+.footEn .allBox .footEnImgBox ul ul li a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footEn .allBox .footEnImgBox ul ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footEn p:last-child {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1%;
+}
+@media screen and (min-width: 1200px) {
+  .footEn p:last-child {
+    text-align: left;
+    margin-left: 41.8%;
+    margin-top: 1.55%;
+  }
+}
+.textCss {
+  font-weight: 400;
+  font-size: 20px;
+}

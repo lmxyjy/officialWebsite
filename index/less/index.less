@@ -1,0 +1,439 @@
+@import '../../common/less/header.less';
+@import '../../common/less/footer.less';
+@import '../../common/less/top.less';
+@import '../../common/less/suggestion.less';
+
+// 修改字体的大小
+
+
+*{
+  margin: 0;  
+  padding: 0;
+}
+body{ overflow: auto !important;} .modal{ overflow: auto !important;} 
+li{
+  list-style: none;
+}
+// 文字说明
+.textDescription{
+  width: 100%;
+  height: 16.8%;
+  background: linear-gradient(to right, #F28A3B 0%,#F9BD07 100%);
+  .textDescriptionContentBox{
+    display: flex;
+    width: 76.524479%;
+    height: 68.3%;
+    padding-top: 18%;
+    padding-top: 8.54%;
+    margin-left: 14.68%;
+    padding-bottom: 7.7%;
+    ul{
+      @media screen and (max-width:1200px) {
+        padding-top: 10%;
+      }
+      width:58.8%;
+      height: 86.6%;
+      @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none){
+        .chinaTextBox{
+          width: 100%;
+          height: 37.5%;
+          margin-bottom:4%;
+        }
+      }
+      .chinaTextBox{
+        width: 100%;
+        height: 37.5%;
+        margin-bottom: 4.2%;
+      }
+ 
+      @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none){
+        li:nth-child(2){
+          width: 100%;
+          height: 20.1%;
+          padding: 0 0 0% 10%;
+          color: white;
+          @media screen and (min-width:1200px) {
+            font-size: 20px;
+          }
+        }      
+      }   
+      li:nth-child(2){
+        width: 100%;
+        height: 20.1%;
+        padding: 0 0 5.5% 10%;
+        color: white;
+        @media screen and (min-width:1200px) {
+          font-size: 20px;
+        }
+      }
+      // ===========IE11======
+      @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none){
+        li:nth-child(2){
+          width: 100%;
+          height: 20.1%;
+          padding: 0 0 0% 10%;
+          color: white;
+          @media screen and (min-width:1200px) {
+            font-size: 20px;
+          }
+        }      
+      }   
+// =================
+      .marLeft{
+        box-shadow: 0 0 5px 0px #D08126;
+        width: 45.2%;
+        height: 20.17%;
+        text-align: center;
+        background-color: #FFE10B;
+        border: 2px solid #FFE200;
+        @media screen and (min-width:1200px) {
+          width: 36.2%;
+          font-size: 24px;
+        }
+        font-weight: 500;
+        margin: 0 0 0% 10%;
+        padding: 1.53%;
+        cursor: pointer;
+        a{
+        color: #FF4E00;
+        text-decoration: none;
+        }
+      }
+      @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none){
+        // IE11
+        .marLeft{
+          box-shadow: 0 0 5px 0px #D08126;
+          text-align: center;
+          background-color: #FFE10B;
+          border: 2px solid #FFE200;
+          width: 36.2%;
+          height: 15.6%;
+          font-size: 24px;
+          font-weight: 500;
+          margin: 6.5% 0 0% 10%;
+          // padding: 1.53%;
+          cursor: pointer;
+          a{
+          color: #FF4E00;
+          text-decoration: none;
+          }
+        }
+      }
+      li:last-child:hover{
+        border: 2px solid #FFE10B;;
+        background-color: #fff;
+
+      }
+    }
+    div{
+      padding-top: 10%;
+      @media screen and (min-width:1200px) {
+        padding-top: 0;
+        margin-top: -2%;
+      }
+      margin-left: 2.2%;
+      width: 39%;
+      height: 100%;
+    }
+  }
+  position: relative;
+  // video
+  .videoBox{
+    width: 52.6%;
+    position: absolute;
+    left: 23.6%;
+    height: 50%;
+    top: 93%;
+    @media screen and (min-width:1200px){
+      left: 23.6%;
+      top: 83%;
+      height: 75%;
+    }
+    @media screen and (max-width:630px){
+      height: 42%;
+    }
+    @media screen and (max-width:405px){
+      height: 33%;
+    }
+    padding: 0;
+    z-index: 98;
+    .videoBoxo{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      #video{
+        border-radius: 7px;
+        box-shadow: #888 0 0 18px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        margin: 0;
+        
+      }
+    }
+    .videoImg{
+      width: 15.58%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+// 板子01
+.board{
+  margin: 0 auto;
+  margin-top: 29%;
+  width: 70%;
+  @media screen and (min-width:1200px) {
+    display: flex;
+    width: 52.5%;
+    margin-left: 24.2%;
+  }
+  justify-content : space-between;
+  font-family:"Microsoft YaHei" ! important;
+  div:first-child{
+    height: 100%;
+    width: 100%;
+    box-shadow: #888 0 0 18px;
+    @media screen and (min-width:1200px) {
+      width: 40.039%;
+    }
+  }
+  .boardTextBox{
+    width: 100%;
+    @media screen and (min-width:1200px) {
+      width: 49.993%;
+    }
+    li:first-child{
+      @media screen and (min-width:1200px) {
+        font-size: 56px;
+      }
+      margin-top: 3%;
+      font-size: 24px;
+      color: #F2893D;
+      font-weight: 300;
+    }
+    li:nth-child(2){
+      @media screen and (min-width:1200px) {
+        font-size: 26px;
+        margin-bottom: 20px;
+      }
+      font-weight: bold;
+    }
+    li:nth-child(3){
+      font-weight: 300;
+      @media screen and (min-width:1200px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+// 板子02
+.boardTwoBox{
+  width: 100%;
+  background-color: #FEF9F2;
+  margin-top: 5.3%;
+  .boardTwo{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2.3%;
+    padding-bottom: 2.7%;
+    @media screen and (min-width:1200px) {
+      display: flex;
+      // justify-content : space-between;
+      width: 55.171111%;
+      height: 73.6%;
+      margin-left: 23.8979%;
+    }
+    font-family:"Microsoft YaHei" ! important;
+    div{
+      height: 100%;
+      width: 100%;
+      margin-top: 6.1%;
+      @media screen and (min-width:1200px) {
+        height: 92%;
+        width: 46.23%;
+        margin-left: 6%;
+      }
+    }
+    .boardTextBox{
+      width: 100%;
+      @media screen and (min-width:1200px) {
+        width: 48.16%;
+        height: 79%;
+      }
+      li:first-child{
+        font-size: 24px;
+        @media screen and (min-width:1200px) {
+          font-size: 56px;
+          }
+        color: #F2893D;
+        font-weight: 300;
+      }
+      li:nth-child(2){
+        @media screen and (min-width:1200px) {
+          font-size: 26px;
+          margin-top: -1.5%;
+        }
+        font-weight: bold;
+      }
+      li:nth-child(3){
+        padding-top: 4%;
+        font-weight: 300;
+        @media screen and (min-width:1200px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+// 板子03
+.boardThree{
+  width: 70%;
+  @media screen and (min-width:1200px) {
+    display: flex;
+    width: 54.45%;
+    margin-left: 21.65%;
+    // justify-content : space-between;
+  }
+  margin: 0 auto;
+  margin-top: 4.3%;
+  font-family:"Microsoft YaHei" ! important;
+  div:first-child{
+    width: 100%;
+    @media screen and (min-width:1200px) {
+      height: 92%;
+      width: 46.23%;
+      margin-top: -1.4%;
+    }
+  }
+  .boardTextBox{
+    width: 100%;
+    @media screen and (min-width:1200px) {
+      width: 48.16%;
+      height: 79%;
+      margin-left: 5.5589%;
+    }
+    li:first-child{
+      font-size: 24px;
+      @media screen and (min-width:1200px) {
+        font-size: 56px;
+        }
+      color: #F2893D;
+      font-weight: 300;
+    }
+    li:nth-child(2){
+      @media screen and (min-width:1200px) {
+        font-size: 26px;
+        margin-top: -1.5%;
+        }
+      font-weight: bold;
+    }
+    li:nth-child(3){
+      font-weight: 300;
+      @media screen and (min-width:1200px) {
+        padding-top: 4%;
+        font-size: 18px;
+        }
+    }
+  }
+}
+// 板子04
+.boardFourBox{
+  width: 100%;
+  background-color: #FEF9F2;
+  .boardTwo{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1.65%;
+    padding-bottom: 4.2%;
+    @media screen and (min-width:1200px) {
+      display: flex;
+      // justify-content : space-between;
+      margin-left: 23.8%;
+      width: 54.45%;
+      height: 73.6%;
+    }
+    font-family:"Microsoft YaHei" ! important;
+    div{
+      width: 100%;
+      margin-top: 5.28%;
+      box-shadow: #888 0 0 18px;
+      @media screen and (min-width:1200px) {
+        margin-left: 10.2%;
+        height: 82.6%;
+        width: 38.605%;
+      }
+    }
+    .boardTextBox{
+      width: 100%;
+      @media screen and (min-width:1200px) {
+        width: 48.2%;
+        height: 79%;
+      }
+      li:first-child{
+        font-size: 24px;
+        @media screen and (min-width:1200px) {
+          font-size: 56px;
+          }
+        color: #F2893D;
+        font-weight: 300;
+      }
+      li:nth-child(2){
+        @media screen and (min-width:1200px) {
+          font-size: 26px;
+          margin-top: -1.5%;
+          }
+        font-weight: bold;
+      }
+      li:nth-child(3){
+        font-weight: 300;
+        @media screen and (min-width:1200px) {
+          padding-top: 4%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+.boardYelloBox{
+  background-image: url("../../image/backimg.png");
+}
+
+#newDownloadBox{
+  a{
+    .none{
+      display: inherit;
+      @media screen and (max-width:550px) {
+      display: none;
+       
+      }     
+    }
+   span{
+    padding-left: 4.8%;
+    @media screen and (max-width:550px) {
+      padding-left: 0;
+    }
+   }
+  }
+
+}
+// ie浏览器的视频
+// =====================================================
+#videoIe{
+  border-radius: 7px;
+  box-shadow: #888 0 0 18px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  margin: 0;
+  background: #ffff;
+}
+

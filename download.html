@@ -1,0 +1,322 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://download3.dfrobot.com.cn/website/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <!-- <script src="download/js/download.js"></script> -->
+  <!-- <script src="../common/js/nav.js"></script> -->
+  <script src="common/js/top.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+  <link rel="shortcut icon" href="http://download3.dfrobot.com.cn/website/image/title.ico" />
+  <link rel="stylesheet" href="http://download3.dfrobot.com.cn/website/bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="http://download3.dfrobot.com.cn/website/download/css/download.css">
+  <title>下载页面</title>
+</head>
+
+<body>
+  <header class="head" id="nav">
+    <nav class="navbar navbar-default navbar-fixed-top top navBox" id="downloadNavBox">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+      <!-- logo -->
+      <div class="logoImgBox col-md-2 col-sm-2 col-xs-2">
+        <a class="colorBlack navText " href="http://mindplus.cc"><img class="imgBox"
+            src="http://download3.dfrobot.com.cn/website/image/logo.png"></a>
+      </div>
+      <!-- 导航-->
+      <div class=" col-md-9 col-sm-11 col-xs-11">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+          <ul class="nav navbar-nav" id="downloadHover">
+            <li class="col-md-1 col-sm-2 indexBox"><a class="colorBlack navText " href="http://mindplus.cc">首页</a>
+            </li>
+            <li class="col-md-1 col-sm-2"><a class="colorBlack navText" href="javascript:void(0)">下载</a></li>
+            <li class="col-md-1 col-sm-2"><a class="colorBlack navText" href="http://mindplus.dfrobot.com.cn
+              " target="_Blank">教程</a>
+            </li>
+            <li class="col-md-1 col-sm-2"><a class="colorBlack navText"
+                href="http://mc.dfrobot.com.cn/forum.php?mod=forumdisplay&fid=165" target="_Blank">论坛</a></li>
+            <li class="col-md-1 col-sm-2"><a class="colorBlack navText" href="javascript:void(0)" target="_Blank"></a>
+            </li>
+            <li class="languageBox" role="presentation" class="dropdown">
+              <a class="dropdown-toggle colorBlack navText" data-toggle="dropdown" data-hover="dropdown"
+                href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false" id="translate">
+                <img class="imgOne  disNone" src="http://download3.dfrobot.com.cn/website/image/small_logo.png">
+                <img class="imgTwo" src="http://download3.dfrobot.com.cn/website/image/blackball.png">
+                中文 <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="langBtn" id="chinese" href="javascript:void(0)">中文</a></li>
+                <li><a class="langBtn" id="english" href="download-en.html">English</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+
+  <!-- 内容 -->
+  <div class="downContentBox">
+    <!-- img -->
+    <div class="logoImgBox" id="downloadLogoImgBox">
+      <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/downRobot.png">
+      <p>MIND+客户端下载</p>
+    </div>
+    <!-- windows -->
+    <ul class="sysBox">
+      <li class="imgBox"><img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/windows.png">
+      </li>
+      <ul class="textBox">
+        <li class="title">Mind+客户端下载for Windows</li>
+        <li>版本:V1.5.5</li>
+        <li class="marB">安装要求:Win7及以上版本 </li>
+      </ul>
+      <!-- btn -->
+      <ul class="btnBox">
+        <!-- xiugaibanben -->
+        <a class="btn" href="http://download3.dfrobot.com.cn/Mind+_Win_V1.5.5.exe">立即下载</a>
+        <li class="updateBox">
+          <a href="http://mindplus.dfrobot.com.cn/PreviousVersions" target="_Blank">历史版本</a>
+          &nbsp;
+          <a href="http://mindplus.dfrobot.com.cn/ReleaseLogs" target="_Blank">更新日志</a>
+        </li>
+      </ul>
+    </ul>
+    <!--mac -->
+    <ul class="sysBox" id="sysBox2">
+      <li class="imgBox">
+        <img class="img-responsive" id="macImgBox" src="http://download3.dfrobot.com.cn/website/image/mac1.png">
+        <img class="img-responsive" id="imgTwoPadding" style="margin-top:5px"
+          src="http://download3.dfrobot.com.cn/website/image/mactext.png">
+      </li>
+      <ul class="textBox">
+        <li class="title">Mind+客户端下载for Mac</li>
+        <li></li>
+        <li></li>
+      </ul>
+      <!-- btn -->
+      <ul class="btnBox">
+        <li class="btn">暂不支持</li>
+        <li class="updateBox">
+          <a href="#"></a>
+          &nbsp;
+          <a href="#"></a>
+        </li>
+      </ul>
+    </ul>
+    <!--linux -->
+    <ul class="sysBox" id="sysBox3">
+      <li class="imgBox">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/linux1.png">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/linuxtext.png">
+      </li>
+      <ul class="textBox">
+        <li class="title">Mind+客户端下载for Linux</li>
+        <li></li>
+        <li></li>
+      </ul>
+      <!-- btn -->
+      <ul class="btnBox">
+        <li class="btn">暂不支持</li>
+        <li class="updateBox">
+          <a href="#"></a>
+          &nbsp;
+          <a href="#"></a>
+        </li>
+      </ul>
+    </ul>
+  </div>
+  <!-- 下载部分 -->
+  <!-- =========================================================== -->
+  <!-- 22222 -->
+  <!-- 下载的标题 -->
+  <!-- <div class="titleBox">
+    <img class="img-responsive" src="../image/twotext.png">
+  </div> -->
+  <!-- 下载部分 -->
+  <!-- <div class="downloadBox">
+    <ul>
+      <li>
+        <img class="img-responsive" src="../image/bigwindows.png">
+        <img class="img-responsive" src="../image/bigwindowstext.png">
+      </li>
+      <li class="version">版本:V1.0.1</li>
+      <li>安装要求:Win7及以上版本 </li>
+      <li class="btn">点击下载</li>
+      <li class="downloadA">
+        <a href="#">历史版本</a>
+        <a href="#">更新日志</a>
+      </li>
+    </ul> -->
+  <!-- mac -->
+  <!-- <ul>
+      <li>
+        <img class="img-responsive" src="../image/bigmac.png">
+        <img class="img-responsive" src="../image/bigmactext.png">
+      </li>
+      <li class="version">版本:V1.0.0</li>
+      <li>安装要求:macOS10及以上 </li>
+      <li class="btn" style="margin-top:10.7%;">点击下载</li>
+      <li class="downloadA">
+        <a href="#">历史版本</a>
+        <a href="#">更新日志</a>
+      </li>
+    </ul> -->
+  <!-- linux -->
+  <!-- <ul id="linuxImg">
+      <li>
+        <img class="img-responsive" src="../image/biglinux.png">
+        <img class="img-responsive" src="../image/biglinuxtext.png">
+      </li>
+      <li class="version"></li>
+      <li></li>
+      <li class="btn">暂不支持</li>
+      <li class="downloadA">
+        <a href="#"></a>
+        <a href="#"></a>
+      </li>
+    </ul>
+  </div> -->
+  <!-- ================================================= -->
+  <!-- 下载的标题 -->
+  <div class="titleBox">
+    <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/firsttext.png">
+  </div>
+  <!-- 下载部分 -->
+  <div class="downloadBox" id="downloadBox2">
+    <ul class='boxHover'>
+      <li>
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/bigwindows.png">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/bigwindowstext.png">
+      </li>
+      <li class="version">版本:V0.1</li>
+      <li>安装要求:Win7及以上版本 </li>
+      <a class="btn btnHover"
+        href="http://download3.dfrobot.com.cn/Mind+ESP32%e7%a6%bb%e7%ba%bf%e5%ae%89%e8%a3%85%e5%99%a8.exe">点击下载</a>
+      <li class="downloadA">
+        <a href="http://mindplus.dfrobot.com.cn/TranslaterTools-PreviousVersions" target="_Blank">历史版本</a>
+        &nbsp;
+        <a href="http://mindplus.dfrobot.com.cn/TranslaterTools-ReleaseLogs
+" target="_Blank">更新日志</a>
+      </li>
+    </ul>
+    <!-- mac -->
+    <ul id="macImg">
+      <li>
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/bigmac.png">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/bigmactext.png">
+      </li>
+      <li class="version"></li>
+      <li></li>
+      <li class="btn">暂不支持</li>
+      <li class="downloadA">
+        <a href="#"></a>
+        <a href="#"></a>
+      </li>
+    </ul>
+    <!-- linux -->
+    <ul id="linuxImg">
+      <li>
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/biglinux.png">
+        <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/biglinuxtext.png">
+      </li>
+      <li class="version"></li>
+      <li></li>
+      <li class="btn">暂不支持</li>
+      <li class="downloadA">
+        <a href="#"></a>
+        <a href="#"></a>
+      </li>
+    </ul>
+  </div>
+  <!-- 尾部 -->
+  <footer class="foot">
+    <div class="footContentBox">
+      <ul>
+        <li style="font-size: 20px;">需求帮助</li>
+        <li class="line1"></li>
+        <li><a href="http://mindplus.dfrobot.com.cn/FAQ" target="_Blank">常见问题</a></li>
+        <li><a href="http://mindplus.dfrobot.com.cn" target="_Blank">官方文档</a></li>
+        <li><a href="http://mc.dfrobot.com.cn/forum.php?mod=forumdisplay&fid=165" target="_Blank">DF创客社区</a></li>
+        <li>QQ群：671877416（Mind+官方交流群）</li>
+      </ul>
+      <ul class="contantUs">
+        <li style="font-size: 20px;">联系我们</li>
+        <li class="line2"></li>
+        <li>邮 箱：MindPlus@dfrobot.com</li>
+        <li><a href="http://www.dfrobot.com.cn" target="_Blank">官方论坛：www.dfrobot.com.cn</a></li>
+        <li><a href="https://weibo.com/mindplus?is_all=1" target="_Blank">官方微博：MindPlus官微</a></li>
+        <li>公众号：蘑菇云创造</li>
+      </ul>
+      <ul class="bottomImgBox">
+        <li>
+          <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/qq.png">
+          <span> 扫码加入QQ群</span>
+        </li>
+        <li>
+          <img class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/weixin.png">
+          <span>扫码关注公众号</span>
+        </li>
+      </ul>
+    </div>
+    <!-- 版本号 -->
+    <p style="color:white">Powered By DFRobot © 2008-2019</p>
+  </footer>
+  <!-- 返回顶部 -->
+  <ul class="topButton">
+    <!-- <li id="suggestionBtn"><img src='http://download3.dfrobot.com.cn/website/image/suggest.png'></li> -->
+    <li id="toTop"><img src='http://download3.dfrobot.com.cn/website/image/top.png'></li>
+  </ul>
+  <!-- 意见反馈 -->
+  <div class="opinionBigBox">
+    <div class="opinionBox">
+      <div class="xBox"><img id="x" class="img-responsive" src="http://download3.dfrobot.com.cn/website/image/x.png">
+      </div>
+      <form>
+        <label class="poinionText"><img
+            src="http://download3.dfrobot.com.cn/website/image/suggestionicon.png">&nbsp;&nbsp;反馈意见</label>
+        <div class="form-group">
+          <input type="email" class="form-control email" id="exampleInputEmail1" placeholder="E-mail">
+          <input type="email" class="form-control disNone emailIe" id="exampleInputEmailIe" placeholder="E-mail">
+        </div>
+        <textarea style="resize:none" class="form-control textarea" rows="3" placeholder="写下你的意见"></textarea>
+
+        <div class="enclosureBigBox">
+          <!-- 1 -->
+          <button class="upSubmit btnA btn-success" type="button">
+            <span class="enclosureBoxImg"><img
+                src="http://download3.dfrobot.com.cn/website/image/enclosure.png">附件：</span>
+            <span class="window"></span>
+          </button>
+          <!-- 2 -->
+          <span class="enclosureBox btn btn-success fileinput-button">
+            <a href="javascript:void(0);" class="upload">
+              上传附件
+              <input class="replyFileid" type="file" multiple="multiple" onchange="getfilename(this);" />
+            </a>
+          </span>
+        </div>
+        <button id="send" class="submit btn btn-default" type="button">提交</button>
+      </form>
+    </div>
+  </div>
+  <!-- ================================================== -->
+  <script src="common/js/suggestion.js"></script>
+  <script src="common/js/hover.js"></script>
+  <script src="common/js/ie11-placeholder.js"></script>
+</body>
+
+</html>

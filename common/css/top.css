@@ -1,0 +1,19 @@
+body .topButton {
+  position: fixed;
+  right: 0.6%;
+  top: 55%;
+}
+body .topButton li {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+body .topButton li img {
+  padding: 21% 0 0 10px;
+}
+body .topButton li:first-child {
+  background-color: #F0A53F;
+}
+body .topButton li:last-child {
+  background-color: #F5C583;
+}

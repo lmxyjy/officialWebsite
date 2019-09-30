@@ -1,0 +1,434 @@
+@import '../../common/less/header-english.less';
+@import '../../common/less/footer-english.less';
+@import '../../common/less/top.less';
+@import '../../common/less/suggestion.less';
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+
+// 内容盒子
+body{
+  background-color: #FEF6EB;
+  font-family: "Microsoft YaHei" ! important;
+  .downContentBox{
+    @media screen and(min-width:1200px){
+      font-size: 16px;
+      margin-top: 5.5%;
+      width: 52.55%;
+      }
+      width: 90.55%;
+      margin: 0 auto;
+      background-color:#fff; 
+      box-shadow: 0 0 6px 1px #DED7CD;
+      margin-top: 20.5%;
+    .logoImgBox{
+      width:  80.6%;
+      img{
+        margin: 0 auto;
+      }
+      @media screen and(min-width:1200px){
+        width: 32.6%;
+          }
+      margin: 0 auto;
+      padding-top: 2%;
+      P{
+        padding-top: 5%;
+        @media screen and(min-width:1200px){
+        font-size: 30px;
+          }
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+    .sysBox{
+      display: flex;
+      flex-wrap: wrap;
+      @media screen and(min-width:1200px){
+        display: flex;
+        justify-content: space-between;
+      }
+      width: 90.65%;
+      margin: 0 auto;
+      margin-top: 2.5%;
+      border-top: 1px dashed #BCBCBC;
+      .imgBox{
+        height: 80%;
+        width: 30%;
+        @media screen and(min-width:1200px){
+          width: 8.278%;
+        }
+        padding-top: 4%;
+        margin-left: 1%;
+      }
+      .textBox{
+        width: 65.62%;
+        padding-top: 3%;
+        @media screen and(min-width:1200px){
+        width: 39.62%;
+        margin-left:-13%;
+        }
+        li{
+          color: #919191;
+          font-weight: 300;
+        }
+        .title{
+          color: #000000;
+          @media screen and(min-width:1200px){
+            font-size: 24px;
+              }
+          font-weight: 500;
+          padding-bottom: 1%;
+        }
+      }
+
+      .btnBox{
+        @media screen and(min-width:1200px){
+          width: 25.16%;
+          margin: 0 0 0 0;
+          margin-left: 3%;
+        }
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 3%;
+        height: 100%;
+        .btn:hover{
+          border: 2px solid #FF7C2F;
+          color: #FF7C2F;
+          background-color: #ffffff;
+        }
+        .btn{
+        
+          font-weight: 500;
+          color: #fff;
+          border: 2px solid #FF7624;
+          height:51.3%;
+          // margin-left: 1%;
+          width: 92.1%;
+          background-color: #FF7624;
+          @media screen and(min-width:1300px){
+            font-size: 16px;
+            // margin-bottom: 19%;
+              }
+          font-family: "Microsoft YaHei" ! important;
+          border-radius: 0;
+          margin-bottom: 1%;
+
+        }
+
+        @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none) {
+          .btn{
+            font-weight: 500;
+            color: #fff;
+            border: 2px solid #FF7624;
+            height:63.8%;
+            // margin-left: 1%;
+            width: 92.1%;
+            background-color: #FF7624;
+            @media screen and(min-width:1200px){
+              font-size: 16px;
+              // margin-bottom: 19%;
+                }
+            font-family: "Microsoft YaHei" ! important;
+            border-radius: 0;
+            margin-bottom: 1%;
+
+          }
+
+        }
+        .updateBox{
+          display: flex;
+          flex-wrap: wrap;
+          font-weight: 300;
+          @media screen and(min-width:1200px){
+            font-size: 14px;
+            // margin-left: 39%;
+              }
+          a{
+            color: #161F64;
+            text-decoration: none;
+          }
+          a:first-child{
+            margin-right: 4.8%;
+          }
+          @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none) {
+            a:first-child{
+              margin-right: 0;
+            }
+          }
+
+        }
+      }
+    }
+    // 02
+    #sysBox2{
+      margin-top: 1%;
+      .imgBox{
+        margin-left: 2.5%;
+      }
+      .textBox{
+        margin-left: -14.5%;
+      }
+      .btnBox{
+        .btn{
+          color: #fff;
+          border: 2px solid #C6C6C6;
+          height:51.3%;
+          margin-left: 1%;
+          width: 92.1%;
+          background-color:#C6C6C6;
+          font-weight: 500;
+          @media screen and(max-width:1370px){
+            font-size: 14px;
+              }
+          font-family: "Microsoft YaHei" ! important;
+          border-radius: 0;
+          margin-bottom: 19%;
+
+        }
+
+        @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none) {
+          .btn{
+            color: #fff;
+            border: 2px solid #C6C6C6;
+            height:66.5%;
+            margin-left: 1%;
+            width: 92.1%;
+            background-color:#C6C6C6;
+            font-weight: 500;
+            @media screen and(max-width:1370px){
+              font-size: 14px;
+                }
+            font-family: "Microsoft YaHei" ! important;
+            border-radius: 0;
+            margin-bottom:0;
+  
+          }
+        }
+
+      }
+    }
+        // 03
+        #sysBox3{
+          margin-top: 1%;
+          .imgBox{
+            margin-left: 2.5%;
+            margin-bottom: 6.98%;
+          }
+          .textBox{
+            margin-left: -14.5%;
+          }
+          .btnBox{
+            .btn{
+              color: #fff;
+              border: 2px solid #C6C6C6;
+              height:51.3%;
+              margin-left: 1%;
+              width: 92.1%;
+              font-weight: 500;
+              background-color:#C6C6C6;
+              @media screen and(max-width:1370px){
+                font-size: 14px;
+                  }
+              
+              font-family: "Microsoft YaHei" ! important;
+              border-radius: 0;
+              margin-bottom: 19%;
+    
+            }
+            @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none) {
+              .btn{
+                color: #fff;
+                border: 2px solid #C6C6C6;
+                height:66.5%;
+                margin-left: 1%;
+                width: 92.1%;
+                font-weight: 500;
+                background-color:#C6C6C6;
+                @media screen and(max-width:1370px){
+                  font-size: 14px;
+                    }
+                
+                font-family: "Microsoft YaHei" ! important;
+                border-radius: 0;
+                margin-bottom: 0;
+      
+              }
+            }
+          }
+        }
+  }
+}
+// 下载部分
+.titleBox{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1.8%;
+  @media screen and(min-width:1200px){
+    width: 18.02%;
+    }
+}
+.downloadBox{
+  font-family: "Microsoft YaHei" ! important;
+  width: 52.55%;
+  margin: 0 auto;
+  @media screen and(min-width:1200px){
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    }
+    font-weight: 300;
+  color: #919191;
+  text-align: center;
+  margin-top: 1.7%;
+  // margin-bottom: 35.3%;
+  margin-bottom: 2.88%;
+  .boxHover:hover{
+    border: 3px solid #F0A53F;
+  }
+  ul{
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    @media screen and(min-width:1200px){
+      width:31%;
+      }
+      width: 100%;
+      box-shadow: 0 0 6px 1px #DED7CD;
+    background-color: #fff;
+    li{
+      img{
+        margin: 0 auto;
+      }
+      img:first-child{
+        margin-top: 13%;
+      }
+      img:last-child{
+        margin-top: 3%;
+      }
+    }
+    .version{
+      margin-top: 6%;
+    }
+    .btn{
+      border: 2px solid #ffff;
+      width: 95.95%;
+      color: white;
+      font-weight: 500;
+      background-color: #F8C146;
+      border-radius: 0;
+      @media screen and(min-width:1200px){
+        font-size: 16px;
+        width: 70.95%;
+          }
+          margin-top: 12.4%;
+    }
+    .btn:hover{
+      background-color: #fff;
+      border: 2px solid #F8C44F;
+      color: #F8C44F;
+    }
+    .downloadA{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 1%;
+      @media screen and(min-width:1200px){
+        margin-left: 9.6%;
+          }
+          margin-bottom: 22.3%;
+      a{
+        text-decoration: none;
+        margin-left: 6%;
+        color: #161F64;
+        @media screen and(min-width:1200px){
+          font-size: 14px;
+            }
+      }
+      a:last-child{
+        margin-left: 4.8%;
+      }
+    }
+    @media screen and(-ms-high-contrast:active),(-ms-high-contrast:none) {
+      .downloadA{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1%;
+        margin-left:15.6%;
+        margin-bottom: 22.3%;
+        a{
+          text-align: center;
+          text-decoration: none;
+          margin-left: 0%;
+          color: #161F64;
+          @media screen and(min-width:1200px){
+            font-size: 14px;
+              }
+        }
+      }
+    }
+  }
+}
+#macImg{
+  li{
+    img:first-child{
+      margin-top: 13%;
+    }
+  }
+  .btn{
+    border: 2px solid white;
+    width:95.95%;
+    color: white;
+    background-color: #C6C6C5;
+    border-radius: 0;
+    font-weight: 500;
+    @media screen and(min-width:1200px){
+      width: 70.95%;
+      font-size: 16px;
+        }
+    @media screen and(max-width:1370px){
+      width: 70.95%;
+      font-size: 14px;
+      margin-top: 30%;
+    }
+        margin-top: 24.3%;
+  }
+}
+#linuxImg{
+  li{
+    img:first-child{
+      margin-top: 13%;
+    }
+  }
+  .btn{
+    border: 2px solid white;
+    color: white;
+    background-color: #C6C6C5;
+    border-radius: 0;
+    font-weight: 500;
+    width: 95.95%;
+    @media screen and(min-width:1200px){
+      font-size: 16px;
+    width: 70.95%;
+    }
+    @media screen and(max-width:1370px){
+      width: 70.95%;
+      font-size: 14px;
+      margin-top: 30%;
+    }
+    
+        margin-top: 24.3%;
+  }
+}
+#downloadBoxOne{
+  margin-bottom: 0;
+}
+.marB{
+  @media screen and (min-width:1200px) {
+    padding-bottom: 32.5px;
+  }
+}
+.btnHover{
+  border: 2px solid white;
+}
